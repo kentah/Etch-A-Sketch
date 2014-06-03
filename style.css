@@ -1,0 +1,18 @@
+
+.grid {
+	background-color: blue;
+	height: auto;
+	width: auto;
+	display: inline-table;
+}
+
+.square {
+	height: 25px;
+	width: 25px;
+	background-color: gray;
+	position: relative;
+	clear: both;
+	margin: 0.75px;
+	display: inline-block;
+
+}
