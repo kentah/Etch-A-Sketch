@@ -1,20 +1,49 @@
 
-.grid {
+#grid {
 	overflow: auto;
-	height: auto;
-	width: auto;
+	width: 960px;
+	height:960px;
+	border: none;
+	margin:auto;
+	margin-bottom:50px;
 
 }
 
 .square {
-	height: 50px;
-	width: 50px;
+
 	background-color: gray;
+	border: .05px solid #000;
+	float:left;
+	
+}
+
+
+
+.hilite {
+
+	background-color:blue;
 	border: 1px solid #000;
 	display: inline-block;
 
 }
 
-.new_row {
-	border: 0px;
-	}
+#button {
+    padding:20px;
+    height: auto;
+    width: 960px;
+    background-color:#A9D9A7;
+}
+
+#butt {
+    align: center;
+    height:40x;
+    width:auto;
+    background-color:orange;
+    text-decoration:none;
+}
+
+.cent {
+    
+    align:center;
+    display:inline;
+}
