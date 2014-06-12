@@ -2,14 +2,14 @@ $(document).ready(function(){
     var input = 64;
     $('#butt').click(function(){
 	$('.square').remove();
-	input = parseInt(prompt('Give me a number between 1 and 100'))
+	input = parseInt(prompt('Give me a number between 1 and 100'));
 	if(input < 1 || input > 100){
 	    input = parseInt(prompt("Try again, I'm not stupid!"));
 	}
 	mkDiv(input);
 	chngClr();
     });
-
+    
     mkDiv(input);
     chngClr();
 });
@@ -21,17 +21,17 @@ mkDiv = function(boxCount){
 	    $('<div>', {'class' : 'square',}).appendTo('#grid');
 	};
 	$('<div>', {'class' : 'square',}).appendTo('#grid');
-    }    
+    }
     
 
     var boxSize = 960 / boxCount;
     $('.square').css({
-	'width':boxSize,
-	'height':boxSize
+	'width':boxSize +'px',
+	'height':boxSize +'px'
     });
 };
 
-
+ 
 chngClr = function(){
     $square = $('.square')
     $square.hover(function(){

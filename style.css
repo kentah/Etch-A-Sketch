@@ -1,49 +1,71 @@
-
 #grid {
-	overflow: auto;
-	width: 960px;
-	height:960px;
-	border: none;
-	margin:auto;
-	margin-bottom:50px;
-
+   
+    width: 960px;
+    margin: 0 auto;
+    padding:20px;
+   
 }
 
 .square {
+    height:15px;
+    width:15px;
+    position:relative;
+    background-color: gray;
+    border: .05px dotted #000;
+    float:left;
+    position:relative;
 
-	background-color: gray;
-	border: .05px solid #000;
-	float:left;
-	
 }
 
 
 
 .hilite {
 
-	background-color:blue;
-	border: 1px solid #000;
-	display: inline-block;
-
+    background-color:#454545;
+    border: 1px dotted #000;
+    display: inline-block;
+    position:relative;
 }
 
 #button {
     padding:20px;
     height: auto;
-    width: 960px;
-    background-color:#A9D9A7;
+    width:auto;
+    background-color:#875B5B;
+    border-radius:4px;
+    border:0 auto;
+
 }
 
 #butt {
-    align: center;
+    color:white;
     height:40x;
     width:auto;
-    background-color:orange;
+    background-color:#a28b8A;
     text-decoration:none;
+    border-radius:15px;
+    padding:10px 20px;
+    display:block;
+
+
 }
 
 .cent {
-    
+    position:relative;
     align:center;
     display:inline;
 }
+
+body {
+    background-color: #a28b8A;
+    
+}
+
+h1 {
+    font-family:'Helvetica';
+    font-size:5em;
+    color:#706464;
+    text-shadow:gray 2px 2px 4px;
+    text-align:center;
+}
+
